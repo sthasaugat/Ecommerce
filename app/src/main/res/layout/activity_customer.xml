@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/dp16">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/customerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dp8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Still having a problem?"
+            android:layout_marginBottom="@dimen/dp4"/>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp48"
+            android:background="@drawable/ripple_effect"
+            android:paddingTop="@dimen/dp4"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:text="Contact us" />
+    </LinearLayout>
+
+
+</RelativeLayout>

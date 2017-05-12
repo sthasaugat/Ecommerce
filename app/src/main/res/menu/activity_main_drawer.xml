@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_MyAccount"
+            android:icon="@drawable/account"
+            android:title="My Account" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wishList"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_Cart"
+            android:icon="@drawable/shoppingcart"
+            android:title="My Cart"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_MyOrder"
+            android:icon="@drawable/order"
+            android:title="My Orders" />
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_CustomerSupport"
+            android:icon="@drawable/support"
+            android:title="Customer Support" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/login"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_Legal"
+            android:icon="@drawable/legal"
+            android:title="Legal" />
+    </group>
+
+</menu>

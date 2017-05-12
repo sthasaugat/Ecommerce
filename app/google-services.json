@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "833430869874",
+    "firebase_url": "https://tulip-bazar.firebaseio.com",
+    "project_id": "tulip-bazar",
+    "storage_bucket": "tulip-bazar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833430869874:android:5b4b45ba2c82284e",
+        "android_client_info": {
+          "package_name": "com.dev.app.playground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833430869874-hvetlsl0q40lmbo6srd14eoim1976che.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.app.playground",
+            "certificate_hash": "1f0ddfa66695d111589d1676f0710d152559da87"
+          }
+        },
+        {
+          "client_id": "833430869874-83i678miqvshi1alm20574b8vu1t9hh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuBpH3Rvp7ra2vM2mZYLoXFM1zQ02Dxec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833430869874-83i678miqvshi1alm20574b8vu1t9hh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
